@@ -407,7 +407,7 @@ install_ADMRufu() {
   clear && clear
   mkdir /etc/ADMRufu >/dev/null 2>&1
   cd /etc
-  wget https://github.com/ScrimceNetwork/VPS-MX_Oficial/blob/master/ADMRufu/ADMRufu.tar.xz >/dev/null 2>&1
+  wget https://raw.githubusercontent.com/ScrimceNetwork/VPS-MX_Oficial/master/ADMRufu/ADMRufu.tar.xz >/dev/null 2>&1
   tar -xf ADMRufu.tar.xz >/dev/null 2>&1
   chmod +x ADMRufu.tar.xz >/dev/null 2>&1
   rm -rf ADMRufu.tar.xz
